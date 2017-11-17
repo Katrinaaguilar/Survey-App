@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aguilar-Activity1</title>
+
+
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style type="text/css">
+      body{
+        background-image: url("https://images2.alphacoders.com/261/thumb-1920-26102.jpg");
+        background-repeat: no-repeat;
+        color: white
+      }
+    </style>
+
+    <style type="text/css">
+      .jumbotron{
+        margin-top:20px;
+        background-image: url("https://collegecost.ed.gov/catc/images/background_bottom.gif");
+        background-size: cover;
+      }
+    </style>
+   
+
+   
+  </head>
+  <body>
+       <div class="container">
+        <div class="jumbotron">
+           <h1>UNO-R College of Information Technology</h1>
+          <p>"Education is the most powerful weapon to change the world!"</p>
+        </div>
+       </div>
+    
+
+    <div class="row">
+      <h1 style="text-align: center;">Welcome to my site, Please sign up or login!</h1>
+      <div class="col-sm-offset-3 col-sm-6">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Survey</a></li>
+          <li role="presentation" ><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">SignUp</a></li>          
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Contact</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="home">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputName">Name</label>
+                  <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputNumber">Mobile Number</label>
+                  <input type="MNumber" class="form-control" id="exampleInputNumber" placeholder="Number">
+                </div>
+                 <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                  <div class="form-group">
+                  <label for="exampleInputPassword1">Confirm Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+          </div>
+           <div role="tabpanel" class="tab-pane active" id="messages">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        
+                          <h4> Check the languages you know:</h4>
+                    <form>
+                      <div class="checkbox">
+                        <input type="checkbox" value="eng">English
+                      </div>    
+                      <div class="checkbox">
+                        <input type="checkbox" value="fil">Filipino
+                      </div>
+                      <div class="checkbox">
+                        <input type="checkbox" value="chin">Chinese
+                      </div>
+                      <div class="checkbox">
+                        <input type="checkbox" value="jap">Japanese
+                      </div>
+                      <div class="checkbox">
+                        <input type="checkbox" value="spa">Spanish
+                      </div>                            
+                      <div class="row">
+                     <div class="col-xs-12">                        
+                          <h4> Choose your gender: </h4>
+
+                      <div class="radio">
+                        <input type="radio" value="male" name="gender">Male
+                      </div>
+                      <div class="radio">
+                        <input type="radio" value="female" name="gender">Female
+                      </div>   
+                      </div>
+                      </div>
+                      <div class="row">
+                     <div class="col-xs-12">                        
+                         <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+                            Course you enrolled:
+                            <span class="caret"></span>
+                          </button> 
+                          <ul class="dropdown-menu" aria-labelled-by="dropdownmenu">                            
+                              <li><a href="#">Bachelor of Science in Information Technology</a></li>
+                              <li><a href="#">Bachelor of Science in Computer Science</a></li>
+                              <li><a href="#">Bachelor of Science in Information System</a></li>                                                                              
+                          </ul>
+                          
+                         </div>
+                         <li>
+                         <div class="row">
+                          <div class="col-xs-12"> 
+                         <button type="submit" class="btn btn-default">Submit</button></div></div>
+                       </li>
+                       </div>
+                            </form></div>
+                     
+                    </div>           
+                
+         </div>
+                     
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="settings">
+                       <div role="tabpanel" class="tab-pane active" id="home">
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Name</label>
+                          <input type="Name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Email</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Subject</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Web Programming">
+                        </div>
+                        <div class="row">
+                     <div class="col-xs-12">                        
+                         <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+                            Budget
+                            <span class="caret"></span>
+                          </button> 
+                          <ul class="dropdown-menu" aria-labelled-by="dropdownmenu">                            
+                              <li><a href="#">$1000-$2000</a></li>
+                              <li><a href="#">$3000-$4000</a></li>
+                              <li><a href="#">$5000-$6000</a></li>                                                                              
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <li>
+                      <div class="form-group">
+                          <label for="comments" class="control-label">Message:</label>
+                          <textarea name="comments" class="form-control" rows="3"></textarea>
+                        </div>
+                      </li>
+                      </div>
+                       <li>
+                         <div class="row">
+                          <div class="col-xs-12"> 
+                         <button type="submit" class="btn btn-default">Submit</button>
+                       </div>
+                     </div>
+                       </li>
+                     
+                       </form>
+                    </div>
+                    </div>
+                      </div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
